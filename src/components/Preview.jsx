@@ -23,7 +23,7 @@ function Preview() {
   return (
     <article className="bg-preview h-full overflow-auto pt-12 sm:pt-0">
       <div
-        className="prose prose-invert p-6"
+        className="prose prose-invert p-6 max-w-full"
         dangerouslySetInnerHTML={{ __html: parsed }}
       />
     </article>
