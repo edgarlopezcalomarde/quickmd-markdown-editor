@@ -70,7 +70,7 @@ function ToolBox() {
   };
 
   return (
-    <div className="absolute top-0 right-0 border p-2 bg-bg2 flex gap-2">
+    <div className="absolute top-0 right-5 border p-2 bg-bg2 flex gap-2 bg-preview lg:bg-editor">
       <input
         type="file"
         ref={fileInputRef}
