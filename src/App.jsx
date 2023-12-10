@@ -7,7 +7,7 @@ import { OptionsProvider } from "./providers/OptionsProvider";
 function App() {
   return (
     <MarkdownProvider>
-      <HashRouter>
+      <HashRouter >
         <Routes>
           <Route
             path="/"

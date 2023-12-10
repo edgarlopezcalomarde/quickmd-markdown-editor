@@ -18,7 +18,7 @@ function ToolBox() {
     const base64String = btoa(mdStorage).toString();
     const { host, protocol } = window.location;
     navigator.clipboard
-      .writeText(protocol + "//" + host + "/#/" + base64String)
+      .writeText(protocol + "//" + host + "/quickmd-markdown-editor"+"/#/" + base64String)
       .then(() => {
         toast.success("Enlace agregado al portapapeles", {
           position: "top-left",

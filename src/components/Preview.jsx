@@ -21,7 +21,7 @@ function Preview() {
   const parsed = dompurify.sanitize(marked.parse(markdown));
 
   return (
-    <article className="bg-bg1 h-full overflow-auto pt-12 sm:pt-0">
+    <article className="bg-preview h-full overflow-auto pt-12 sm:pt-0">
       <div
         className="prose prose-invert p-6"
         dangerouslySetInnerHTML={{ __html: parsed }}

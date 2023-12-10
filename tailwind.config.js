@@ -5,10 +5,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'bg1': "#23262f",
-        "bg2": "#17181c",
+        editor: "#23262f",
+        preview: "#17181c",
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require("@tailwindcss/typography")],
 };
