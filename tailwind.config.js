@@ -5,8 +5,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        editor: "#23262f",
-        preview: "#17181c",
+        editor: "#17181c",
+        preview: "#23262f",
       },
     },
   },
